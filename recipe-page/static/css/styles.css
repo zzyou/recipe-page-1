@@ -1,14 +1,28 @@
 body {
-  background-color:rgb(100, 124, 54);
+  background-color: rgb(100, 124, 54);
 }
-h1, h2, .ingredients {
+
+.title,
+.ingredients {
+  text-align: center;
+}
+
+h1,
+h2,
+.ingredients {
   font-family: Impact, Charcoal, sans-serif;
   color: DarkGreen;
 }
- div {
+
+div {
   background-color: rgb(246, 226, 188);
   border: 2.5px solid black;
   padding: 6px;
+}
+
+#link {
+  border: none;
+  padding-left: 30px;
 }
 
 .top {
@@ -16,32 +30,29 @@ h1, h2, .ingredients {
 }
 
 .description {
-width: 600px;
+  text-align: center;
 }
 
 .left {
-float: left;
-margin-top: 30px;
+  float: left;
+  margin-top: 30px;
 }
 
 .right {
-  text-align: center;
   width: 600px;
   float: left;
   margin-left: 30px;
   margin-top: 30px;
 }
+
 .video {
   float: left;
   margin-left: 30px;
   margin-top: 30px;
   margin-right: 30px;
   margin-bottom: 30px;
-
 }
 
+/* Add CommentCollapse 
 
-
-Add CommentCollapse 
-
-Jot something down
+Jot something down */
